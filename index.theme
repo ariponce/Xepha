@@ -1,10 +1,9 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Numix-ArchBlue
-Comment=A modern flat theme
+Name=Xepha
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Numix-ArchBlue
-MetacityTheme=Numix-ArchBlue
+GtkTheme=Xepha
+MetacityTheme=Xepha
 ButtonLayout=:minimize,maximize,close

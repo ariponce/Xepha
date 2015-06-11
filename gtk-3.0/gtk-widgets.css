@@ -1899,6 +1899,11 @@ GtkComboBox .separator {
     color: mix(@theme_fg_color, @theme_bg_color, 0.1);
 }
 
+.sidebar row:hover,
+.sidebar .view:hover {
+    background-color: @theme_selected_bg_color;
+}
+
 .sidebar row:selected,
 .sidebar row:selected:hover,
 .sidebar row:selected:focus,
@@ -1914,7 +1919,7 @@ GtkComboBox .separator {
 .sidebar row:prelight,
 .sidebar .view row:prelight {
     border-color: shade(@theme_bg_color, 1.05);
-    background-color: shade(@theme_bg_color, 1.05);
+    background-color: shade(@theme_selected_bg_color, 0.90);
     background-image: none;
     color: @theme_fg_color;
 }
